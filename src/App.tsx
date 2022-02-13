@@ -11,7 +11,7 @@ export const App: FC = () => {
   const [nftsAmount, setNftsAmount] = useState<string | number>('');
 
   const handleCheckNftAmount = useCallback(async () => {
-    if (!account.address) {
+    if (!account?.address) {
       await connect('MetaMask');
     }
 
