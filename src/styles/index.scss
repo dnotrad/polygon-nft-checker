@@ -1,0 +1,65 @@
+@import './reset';
+@import './common';
+@import './mixins';
+@import './fonts';
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+
+body {
+  background: #181818;
+  @media (max-width: 700px) {
+    background: #181818;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+
+  min-height: 100vh;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  max-width: 1360px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.Toastify__toast-theme--dark {
+  background: #6B25E0;
+
+  /* if backdrop support: very transparent and blurred */
+  // @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  //   background: rgba(196, 196, 196, 0.2);
+  //   box-shadow: inset 25.1px -25.1px 25.1px rgba(149, 149, 149, 0.1),
+  //     inset -25.1px 25.1px 25.1px rgba(255, 255, 255, 0.1);
+  //   backdrop-filter: blur(35px);
+  //   /* Note: backdrop-filter has minimal browser support */
+  // }
+  color: #000;
+  font-family: 'Space Grotesk';
+  font-weight: 700;
+}
+
+.Toastify__toast-theme--dark svg {
+  fill: #181818;
+}
+
+.Toastify__progress-bar-theme--dark {
+  background: #181818 !important;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0 15px;
+  }
+}
