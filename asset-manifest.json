@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/polygon-nft-checker/static/css/main.91738cd7.chunk.css",
+    "main.js": "/polygon-nft-checker/static/js/main.a6d44e3d.chunk.js",
+    "main.js.map": "/polygon-nft-checker/static/js/main.a6d44e3d.chunk.js.map",
+    "runtime-main.js": "/polygon-nft-checker/static/js/runtime-main.d634c44b.js",
+    "runtime-main.js.map": "/polygon-nft-checker/static/js/runtime-main.d634c44b.js.map",
+    "static/css/2.58a45539.chunk.css": "/polygon-nft-checker/static/css/2.58a45539.chunk.css",
+    "static/js/2.017ff694.chunk.js": "/polygon-nft-checker/static/js/2.017ff694.chunk.js",
+    "static/js/2.017ff694.chunk.js.map": "/polygon-nft-checker/static/js/2.017ff694.chunk.js.map",
+    "index.html": "/polygon-nft-checker/index.html",
+    "static/css/2.58a45539.chunk.css.map": "/polygon-nft-checker/static/css/2.58a45539.chunk.css.map",
+    "static/css/main.91738cd7.chunk.css.map": "/polygon-nft-checker/static/css/main.91738cd7.chunk.css.map",
+    "static/js/2.017ff694.chunk.js.LICENSE.txt": "/polygon-nft-checker/static/js/2.017ff694.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d634c44b.js",
+    "static/css/2.58a45539.chunk.css",
+    "static/js/2.017ff694.chunk.js",
+    "static/css/main.91738cd7.chunk.css",
+    "static/js/main.a6d44e3d.chunk.js"
+  ]
+}
