@@ -14,7 +14,7 @@
     "lint:scss": "stylelint \"src/**/*.scss\"",
     "lint-fix:scss": "stylelint \"src/**/*.scss\" --fix",
     "predeploy": "react-scripts build",
-    "deploy": "gp-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@amfi/connect-wallet": "^1.1.16",
